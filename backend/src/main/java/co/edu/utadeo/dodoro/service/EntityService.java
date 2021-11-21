@@ -29,7 +29,7 @@ public class EntityService<E> {
         return result.get();
     }
 
-    public void deleteOne(Integer id){
+    public void deleteOne(Integer id) throws Exception {
         repository.deleteById(id);
     }
 

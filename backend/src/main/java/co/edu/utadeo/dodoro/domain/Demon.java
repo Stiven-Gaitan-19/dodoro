@@ -1,5 +1,6 @@
 package co.edu.utadeo.dodoro.domain;
 
+import com.fasterxml.jackson.annotation.JsonFormat;
 import com.fasterxml.jackson.annotation.JsonIgnore;
 
 import javax.persistence.*;
@@ -24,8 +25,7 @@ public class Demon implements Serializable {
     @Column(name = "image_url")
     private String imageUrl;
 
-    @ManyToOne(fetch = FetchType.LAZY, optional = false)
-    @JsonIgnore
+    @ManyToOne(fetch = FetchType.EAGER, optional = false)
     private Place place;
 
     @OneToOne(fetch = FetchType.EAGER, optional = false)
@@ -91,6 +91,7 @@ public class Demon implements Serializable {
         this.fights = fights;
     }
 
+    @JsonFormat(shape = JsonFormat.Shape.STRING, pattern = "yyyy MMM d hh:mm:ss aaa")
     public Date getDefeatedOn() {
         return defeatedOn;
     }
@@ -122,6 +123,7 @@ public class Demon implements Serializable {
                 ", defeat=" + defeat +
                 ", defeatedOn=" + defeatedOn +
                 ", imageUrl='" + imageUrl + '\'' +
+                ", place=" + place +
                 ", bodyPart=" + bodyPart +
                 '}';
     }

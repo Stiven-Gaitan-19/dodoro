@@ -3,7 +3,6 @@ package co.edu.utadeo.dodoro.rest;
 import co.edu.utadeo.dodoro.domain.Demon;
 import co.edu.utadeo.dodoro.service.DemonService;
 import org.springframework.web.bind.annotation.*;
-
 import java.util.Date;
 import java.util.List;
 
@@ -26,6 +25,8 @@ public class DemonController extends EntityController<Demon> {
         result.setImageUrl(demon.getImageUrl());
         result.setDefeat(demon.isDefeat());
         result.setDefeatedOn(demon.getDefeatedOn());
+        result.setPlace(demon.getPlace());
+        result.setBodyPart(demon.getBodyPart());
         return service.save(result);
     }
 

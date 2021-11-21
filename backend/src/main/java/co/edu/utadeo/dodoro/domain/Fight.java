@@ -1,5 +1,7 @@
 package co.edu.utadeo.dodoro.domain;
 
+import com.fasterxml.jackson.annotation.JsonFormat;
+
 import javax.persistence.*;
 import java.io.Serializable;
 import java.util.Date;
@@ -37,6 +39,7 @@ public class Fight implements Serializable, Comparable<Fight>{
         this.demon = demon;
     }
 
+    @JsonFormat(shape = JsonFormat.Shape.STRING, pattern = "yyyy MMM d hh:mm:ss aaa")
     public Date getFoughtOn() {
         return foughtOn;
     }

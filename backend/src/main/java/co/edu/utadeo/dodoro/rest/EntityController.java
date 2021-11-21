@@ -30,7 +30,7 @@ public class EntityController<E> {
     }
 
     @DeleteMapping("/{id}")
-    public void deleteByID(@PathVariable Integer id){
+    public void deleteByID(@PathVariable Integer id) throws Exception {
         service.deleteOne(id);
     }
 }
