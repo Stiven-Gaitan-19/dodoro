@@ -1,0 +1,275 @@
+{
+    "places": [
+        {
+            "name": "Cloud Dragon Temple",
+            "imageUrl": "https://img1.goodfon.com/wallpaper/nbig/3/c2/art-gory-hram-drakon-aziya.jpg",
+            "demons": [
+                {
+                    "name": "Deiki",
+                    "bodyPart": "Skin",
+                    "defeat": false,
+                    "imageUrl": "https://static.wikia.nocookie.net/dororo/images/4/4d/Deiki.png"
+                },
+                {
+                    "name": "Bandai",
+                    "bodyPart": "Left Leg",
+                    "defeat": false,
+                    "imageUrl": "https://static.wikia.nocookie.net/dororo/images/9/9b/Bandai_human.png"
+                },
+                {
+                    "name": "Nihil",
+                    "bodyPart": "Right eye",
+                    "defeat": false,
+                    "imageUrl": "https://static.wikia.nocookie.net/dororo/images/3/39/Nihil_%28Anime%29.png"
+                },
+                {
+                    "name": "Kajirinkon",
+                    "bodyPart": "Vocal chords/voice",
+                    "defeat": false,
+                    "imageUrl": "https://static.wikia.nocookie.net/dororo/images/2/21/Kyubi_%28Anime%29.png"
+                },
+                {
+                    "name": "Silver vine tree demon",
+                    "bodyPart": "Ears/hearing",
+                    "defeat": false,
+                    "imageUrl": "https://static.wikia.nocookie.net/dororo/images/4/45/Hakumenfudo_anime.png"
+                }
+            ]
+        },
+        {
+            "name": "Camp",
+            "imageUrl": "https://p4.wallpaperbetter.com/wallpaper/646/350/481/anime-laid-back-camp-nadeshiko-kagamihara-rin-shima-wallpaper-preview.jpg",
+            "demons": [
+                {
+                    "name": "Nue",
+                    "bodyPart": "Right Arm",
+                    "defeat": false,
+                    "imageUrl": "https://static.wikia.nocookie.net/dororo/images/1/1c/Nue.png"
+                },
+                {
+                    "name": "Hellcrusher",
+                    "bodyPart": "Esophagus",
+                    "defeat": false,
+                    "imageUrl": "https://static.wikia.nocookie.net/dororo/images/8/8f/Midoro_anime.png"
+                },
+                {
+                    "name": "Grave Golem",
+                    "bodyPart": "Platelets",
+                    "defeat": false,
+                    "imageUrl": "https://static.wikia.nocookie.net/dororo/images/c/c6/Arijigoku_%28Anime%29.png"
+                },
+                {
+                    "name": "Inquisitor",
+                    "bodyPart": "Trapezius Muscles",
+                    "defeat": false,
+                    "imageUrl": "https://i.pinimg.com/originals/c9/31/62/c93162678ee28066d4e1da3fd377e960.jpg"
+                },
+                {
+                    "name": "Giant Fire Wheel",
+                    "bodyPart": "Kidneys",
+                    "defeat": false,
+                    "imageUrl": "https://i.imgur.com/ieTWPiQ.jpg"
+                },
+                {
+                    "name": "Twin Blade",
+                    "bodyPart": "Ears",
+                    "defeat": false,
+                    "imageUrl": "https://i.pinimg.com/originals/61/8c/b9/618cb9ff3c03e5dc1dade99811235d34.jpg"
+                }
+            ]
+        },
+        {
+            "name": "Villa of the Dead",
+            "imageUrl": "https://www.teahub.io/photos/full/230-2306914_anime-ghost-city.jpg",
+            "demons": [
+                {
+                    "name": "Three-Tailed Fox",
+                    "bodyPart": "Lymph Nodes",
+                    "defeat": false,
+                    "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSgokuYaCbu4_l-EiafopEQAvkcC3vjRXawUw&usqp=CAU"
+                },
+                {
+                    "name": "Six-Tailed Fox",
+                    "bodyPart": "Pancreas",
+                    "defeat": false,
+                    "imageUrl": "https://www.cultture.com/pics/2019/09/5-anime-de-terror-que-te-asustara-tontamente-y-5-que-no-asustara-a-nadie-0.jpg"
+                },
+                {
+                    "name": "Beast Fiend",
+                    "bodyPart": "Cerebral Neo-cortex",
+                    "defeat": false,
+                    "imageUrl": "https://i.pinimg.com/736x/83/7a/20/837a205c4615aa9c81dc7ea5d8d01155.jpg"
+                },
+                {
+                    "name": "Dreameater",
+                    "bodyPart": "Hippocampal Synapse",
+                    "defeat": false,
+                    "imageUrl": "https://www.nacionrex.com/__export/1567277745947/sites/debate/img/2019/08/31/moms16_main_crop1567277745601.jpg_423682103.jpg"
+                },
+                {
+                    "name": "Wind Fiend",
+                    "bodyPart": "Abdominal muscles",
+                    "defeat": false,
+                    "imageUrl": "https://cde.peru.com//ima/0/0/9/3/5/935828/924x530/zona-asia.jpg"
+                }
+            ]
+        },
+        {
+            "name": "Sanctuary of Last Gasp",
+            "imageUrl": "https://a-static.besthdwallpaper.com/puerta-torii-del-santuario-tradicional-papel-pintado-1024x768-62947_18.jpg",
+            "demons": [
+                {
+                    "name": "Legion",
+                    "bodyPart": "Nose",
+                    "defeat": false,
+                    "imageUrl": "https://deanime.es/wp-content/uploads/2016/08/Shiki-e1539904912743.jpg"
+                },
+                {
+                    "name": "Blood Ape",
+                    "bodyPart": "Ribs",
+                    "defeat": false,
+                    "imageUrl": "https://i0.wp.com/pollotaku.com/wp-content/uploads/2020/04/yami-shibai-pollotaku.jpg?fit=1000%2C667&ssl=1"
+                },
+                {
+                    "name": "Giant Inferno Wheel",
+                    "bodyPart": "Bone Marrow",
+                    "defeat": false,
+                    "imageUrl": "https://k-magazinemx.com/wp-content/uploads/2019/10/Top-anime-terror-e1572416963940.png.webp"
+                },
+                {
+                    "name": "Minotaur",
+                    "bodyPart": "Minotaur",
+                    "defeat": false,
+                    "imageUrl": "https://i.blogs.es/6af668/horror-japones/1366_2000.jpg"
+                }
+        
+            ]
+        },
+        {
+            "name": "Incident Town",
+            "imageUrl": "https://uploads.spiritfanfiction.com/fanfics/capitulos/201710/rei-arthur-10685812-181020172152.jpg",
+            "demons": [
+                {
+                    "name": "Goliath",
+                    "bodyPart": "Adrenal Glands",
+                    "defeat": false,
+                    "imageUrl": "https://static.wikia.nocookie.net/dororo/images/e/ef/LizardDemon.png"
+                },
+                {
+                    "name": "Night Terror",
+                    "bodyPart": "Cerebellum",
+                    "defeat": false,
+                    "imageUrl": "https://static.wikia.nocookie.net/dororo/images/2/22/Nokosaregumo.png"
+                },
+                {
+                    "name": "Gaping Maw",
+                    "bodyPart": "Small Intestines",
+                    "defeat": false,
+                    "imageUrl": "https://static.wikia.nocookie.net/dororo/images/4/4f/Jiromaru.png"
+                },
+                {
+                    "name": "Mountainous",
+                    "bodyPart": "Sense of Pain",
+                    "defeat": false,
+                    "imageUrl": "https://deanime.es/wp-content/uploads/2016/08/Yami_Shibai-e1539905166547.jpg"
+                }
+            ]
+        },
+        {
+            "name": "Jubilation Graveyard",
+            "imageUrl": "https://i.pinimg.com/originals/66/db/4c/66db4c1540e84f1f2a1ed0dc73de93b8.jpg",
+            "demons": [
+                {
+                    "name": "Donburibara",
+                    "bodyPart": "Left eye",
+                    "defeat": false,
+                    "imageUrl": "https://tse2.mm.bing.net/th?id=OIP.J61S-wygd23Vv5zxM-dIBQHaEK&pid=Api"
+                },
+                {
+                    "name": "Birabira",
+                    "bodyPart": "Teeth",
+                    "defeat": false,
+                    "imageUrl": "https://static.wikia.nocookie.net/dororo/images/5/52/Asura.png"
+                },
+                {
+                    "name": "Spider demon",
+                    "bodyPart": "Spine",
+                    "defeat": false,
+                    "imageUrl": "https://4.bp.blogspot.com/-qptsh8UEnz4/WpjtJYsD_sI/AAAAAAAAAmk/2KcnsbRrteIKQxdf8OE3iFltxGj0josIACLcBGAs/s1600/f742a709e1b1e4ddcd55f3a35e446c51494f6700_hq.jpg"
+                },
+                {
+                    "name": "Maimai-onba",
+                    "bodyPart": "Right Leg",
+                    "defeat": false,
+                    "imageUrl": "https://static.wikia.nocookie.net/dororo/images/1/10/Maimai-onba_as_human.png"
+                },
+                {
+                    "name": "Shike Nyuudou",
+                    "bodyPart": "Sense of touch",
+                    "defeat": false,
+                    "imageUrl": "https://peru21.pe/resizer/_0nQnt8ER-gH_LKwwqaQS0ZmyaA=/1200x800/smart/filters:format(jpeg):quality(75)/arc-anglerfish-arc2-prod-elcomercio.s3.amazonaws.com/public/5VX6772BFBHGDMTNAWBTUMUI2M.jpg"
+                }
+            ]
+        },
+        {
+            "name": "The Island",
+            "imageUrl": "https://pbs.twimg.com/media/EMbD3wRXkAAzSdG.jpg",
+            "demons": [
+                {
+                    "name": "Soul Stealer",
+                    "bodyPart": "Large Intestines",
+                    "defeat": false,
+                    "imageUrl": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/mejores-anime-terror-junji-ito-collection-1537889553.jpg"
+                },
+                {
+                    "name": "Demon Ogress",
+                    "bodyPart": "Lungs",
+                    "defeat": false,
+                    "imageUrl": "https://i0.wp.com/www.freim.tv/wp-content/uploads/2021/08/Junji-Ito-1.jpg"
+                },
+                {
+                    "name": "White Dragon",
+                    "bodyPart": "Skull",
+                    "defeat": false,
+                    "imageUrl": "https://cdn.superaficionados.com/imagenes/ghost-hound.jpg"
+                }
+            ]
+        },
+        {
+            "name": "Endless start",
+            "imageUrl": "https://p4.wallpaperbetter.com/wallpaper/324/214/446/anime-statue-field-horse-wallpaper-preview.jpg",
+            "demons": [
+                {
+                    "name": "Draconus",
+                    "bodyPart": "Liver",
+                    "defeat": false,
+                    "imageUrl": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/mejores-anime-terror-yami-shibai-2-1537889864.jpg?crop=1.00xw:0.892xh;0,0.0494xh&resize=480:*"
+                },
+                {
+                    "name": "Death",
+                    "bodyPart": "Thyroid glands",
+                    "defeat": false,
+                    "imageUrl": "https://cinematicos.net/wp-content/uploads/l-intro-1622828923.jpg"
+                },
+                {
+                    "name": "Boar Fiend",
+                    "bodyPart": "Pectoral Muscles",
+                    "defeat": false,
+                    "imageUrl": "https://ilarge.lisimg.com/image/14291251/853full-kakurenbo-screenshot.jpg"
+                },
+                {
+                    "name": "Nine-Tailed Fox",
+                    "bodyPart": "Heart",
+                    "defeat": false,
+                    "imageUrl": "https://cdn.hobbyconsolas.com/sites/navi.axelspringer.es/public/media/image/2018/10/yami-shibai_0.jpg"
+                },
+                {
+                    "name": "Thunder Fiend",
+                    "bodyPart": "Lateral Muscles",
+                    "defeat": false,
+                    "imageUrl": "https://media.airedesantafe.com.ar/adjuntos/268/migration/app/uploads/2019/07/2-2.jpg"
+                }
+            ]
+        }
+    ]
+}

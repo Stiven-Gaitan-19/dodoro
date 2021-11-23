@@ -1,0 +1,28 @@
+<div class="mb-2">
+  <button class="btn btn-secondary" (click)="back()">
+      <i class="fas fa-arrow-left"></i>
+      Back
+  </button>
+</div>
+
+<div class="text-center">
+    <h2>Demons of {{placeName}}</h2>
+</div>
+
+<div class="row row-cols-1 row-cols-md-3 g-4 mb-3">
+    <div class="col" *ngFor="let demon of demons">
+      <div class="card">
+        <img [src]="demon.image" class="card-img-top" alt="..."  [ngClass]="{'defeat': demon.defeat}">
+        <div class="card-body">
+          <h5 class="card-title">{{demon.name}}</h5>
+          <p class="card-text">Body Part: <small>{{ demon.bodyPart.name }}</small></p>
+        </div>
+        <div class="text-center mb-3">
+            <button class="btn btn-primary" type="button" *ngIf="!demon.defeat" (click)="fight(demon.id)">Fight</button>
+        </div>
+        <div class="card-footer" *ngIf="demon.defeat">
+          <small class="text-muted">Demon defeat <i class="fas fa-skull-crossbones"></i></small>
+        </div>
+      </div>
+    </div>
+</div>

@@ -1,0 +1,56 @@
+<div class="text-center mb-3">
+  <h1>Artefacts</h1>
+</div>
+
+<div class="btn-toolbar justify-content-between mb-3" role="toolbar" aria-label="Toolbar with button groups">
+  <div class="btn-group" role="group" aria-label="First group">
+    <button type="button" class="btn btn-secondary" [routerLink]="['/dororo']"><i class="fas fa-arrow-left"></i>
+      Back</button>
+  </div>
+  <div class="btn-group">
+    <button type="button" class="btn btn-primary" (click)="addArtefact()"><i class="fas fa-plus"></i></button>
+    <button type="button" class="btn btn-danger" (click)="removeArtefact()"><i class="far fa-trash-alt"></i></button>
+  </div>
+</div>
+
+<div style="display: block; max-height: 47.5rem; overflow-y: scroll; scroll-behavior: smooth;">
+  <table class="table table-image table-hover table-sm" style="height: 100%;">
+    <thead class="table-dark">
+      <tr>
+        <th scope="col" style="width: 40px"></th>
+        <th scope="col">Artefact</th>
+        <th scope="col" style="width: 50%">Origin</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let new of newArtefacts">
+        <td>
+          <input type="checkbox" class="form-check-input" id="exampleCheck1" [(ngModel)]="new.remove" name="remove">
+        </td>
+        <td>
+          <input type="text" class="form-control" id="autoSizingInput" [(ngModel)]="new.name" name="name">
+        </td>
+        <td>
+          <select id="inputState" class="form-select" [(ngModel)]="new.origin" name="origin">
+            <option>STOLEN</option>
+            <option>OWN</option>
+          </select>
+        </td>
+      </tr>
+      <tr *ngFor="let artefact of arterfacts">
+        <td style="width: 10px;">
+          <input type="checkbox" class="form-check-input" id="exampleCheck1" [(ngModel)]="artefact.remove"
+            name="remove">
+        </td>
+        <td>{{ artefact.name }}</td>
+        <td>{{ artefact.origin }}</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+<div
+  class="alert alert-secondary  bottom-0 start-50 translate-middle-x fixed-bottom d-grid gap-2 d-md-flex justify-content-md-end"
+  style="width: 70%; padding: 10px;" role="alert">
+  <button type="button" class="btn btn-primary" (click)="save()">Save</button>
+  <button type="button" class="btn btn-outline-danger" [routerLink]="['/dororo']">Cancel</button>
+</div>

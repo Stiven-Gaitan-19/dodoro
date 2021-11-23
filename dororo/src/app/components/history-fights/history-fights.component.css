@@ -1,0 +1,31 @@
+.lost {
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+}
+
+
+.won {
+    -webkit-filter: contrast(150%); /* Safari 6.0 - 9.0 */
+    filter: contrast(150%);
+}
+
+.tag{
+    font-size: 2em;
+    display: inline;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+}
+
+.tag-loser{
+    background-color: rgb(206, 22, 22);
+    color: white;
+}
+
+.tag-winner{
+    background-color: rgb(126, 206, 22);
+    color: white;
+}
+
+img{
+    width: 20rem;
+}

@@ -1,0 +1,45 @@
+<div class="mb-2">
+    <button class="btn btn-secondary" (click)="back()">
+        <i class="fas fa-arrow-left"></i>
+        Back
+    </button>
+</div>
+<div class="text-center mb-4">
+    <h2>{{ dororo.name }}</h2>
+</div>
+<div class="text-center main-container">
+  <div class="card mb-3 text-start" style="max-width: 540px;">
+    <div class="row g-0">
+      <div class="col-md-4">
+        <img [src]="dororo.image" class="img-fluid rounded-start" alt="...">
+      </div>
+      <div class="col-md-8">
+        <div class="card-body">
+          <p class="card-text"><strong>Genre: </strong>{{ dororo.gender }}</p>
+          <p><strong>Abilities</strong></p>
+          <ul>
+              <li *ngFor="let ability of dororo.powers">{{ ability.description }}</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="card mb-3 text-start" style="max-width: 540px;">
+    <div class="row">
+      <div class="col-md-4">
+        <img src="https://i.pinimg.com/736x/f7/04/63/f70463f068e00cffced821527c5798ff.jpg" class="img-fluid rounded-start" alt="...">
+      </div>
+      <div class="col-md-8">
+        <div class="card-body">
+          <h5 class="card-title">Artefacts</h5>
+          <ul *ngFor="let artefact of artefacts">
+              <li>{{ artefact.name }} - {{ artefact.origin }}</li>
+          </ul>
+        </div>
+      </div>
+      <div class="mr-2">
+        <button class="btn btn-outline-info position-absolute bottom-0 end-0" style="position: absolute;" [routerLink]="['/dororo/bag']"><i class="fas fa-box-open"></i> Save Artefacts</button>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,30 @@
+<div class="text-center">
+    <h2 *ngIf="!isUpdate">Create Demon</h2>
+    <h2 *ngIf="isUpdate">Update Demon</h2>
+</div>
+<form>
+    <div class="mb-3">
+      <label for="exampleInputEmail1" class="form-label">Name:</label>
+      <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" [(ngModel)]="demon.name" name="name">
+    </div>
+    <div class="mb-3">
+      <label for="exampleInputPassword1" class="form-label">Body Part:</label>
+      <input type="text" class="form-control" id="exampleInputPassword1" [(ngModel)]="demon.bodyPart.name" name="bodyPart">
+    </div>
+    <div class="mb-3">
+        <label for="formFile" class="form-label">Image:</label>
+        <input class="form-control" type="file" id="formFile" (change)="onFileAdded($event)" >
+    </div>
+    <div class="mb-3">
+        <label for="exampleInputPassword1" class="form-label">Place:</label>
+        <select class="form-select" aria-label="Default select example" [(ngModel)]="demon.place.id" name="place">
+            <option value="{{ place.id }}" *ngFor="let place of places">{{ place.name }}</option>
+        </select>
+    </div>
+    <div class="d-grid gap-2 d-md-flex justify-content-md-center">
+        <button *ngIf="!isUpdate" type="submit" class="btn btn-success" (click)="create()">Create</button>
+        <button *ngIf="isUpdate" type="submit" class="btn btn-primary" (click)="update()">Update</button>
+        <button type="submit" class="btn btn-danger" (click)="back()">Cancel</button>
+    </div>
+    
+</form>

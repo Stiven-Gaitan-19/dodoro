@@ -1,0 +1,8 @@
+td > img{
+    max-width: 150px;
+    max-height: 100px;
+}
+
+.table-image td, .table-image th {
+    vertical-align: middle;
+}

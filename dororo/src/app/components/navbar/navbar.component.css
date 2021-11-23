@@ -1,0 +1,35 @@
+.card{
+    background-image: url("https://i.pinimg.com/originals/fe/e3/36/fee336228a7dc89de5c745764c72f7fe.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+nav > a {
+    color: rgb(194, 194, 194);
+}
+
+nav > a:hover {
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+
+.dropdown-custom{
+    inset: 0px 40% auto 35% !important;
+    background-color: rgba(56, 56, 56, 0.616);
+    font-size: 1.5rem;
+}
+
+.dropdown-custom > li{
+    font-size: 1.5rem;
+}
+
+.dropdown-custom > li >a:hover{
+    background-color:transparent !important;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+
+.dropdown-custom > li >a{
+    color: rgb(194, 194, 194) !important;
+}

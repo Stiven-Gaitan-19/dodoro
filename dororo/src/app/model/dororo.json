@@ -1,0 +1,55 @@
+{
+    "name":"Dororo",
+    "genre": "Female",
+    "imageUrl": "https://3.bp.blogspot.com/-4NAe0ji0CpI/XMwXqT9eWzI/AAAAAAAAAKI/OxBxA6iwOOIv0G_FKp3JRhoFuttiZe0-gCEwYBhgL/s1600/dororo.jpg",
+    "powers": [
+        "Agility",
+        "Intellect",
+        "Marksmanship",
+        "Sonic Scream",
+        "Stealth",
+        "Unarmed Combat"
+    ],
+    "artefacts":[
+        {
+            "name": "sword",
+            "origin":"stolen"
+        },
+        {
+            "name": "sack of coins",
+            "origin":"own"
+        },
+        {
+            "name": "necklace",
+            "origin":"stolen"
+        },
+        {
+            "name": "book",
+            "origin":"stolen"
+        },
+        {
+            "name": "bread",
+            "origin":"own"
+        },
+        {
+            "name": "wine",
+            "origin":"stolen"
+        },
+        {
+            "name": "clothes",
+            "origin":"own"
+        },
+        {
+            "name": "water",
+            "origin":"own"
+        },
+        {
+            "name": "knife",
+            "origin":"stolen"
+        },
+        {
+            "name": "hat",
+            "origin":"own"
+        }
+    ]
+}

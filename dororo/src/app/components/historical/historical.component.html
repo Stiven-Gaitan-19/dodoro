@@ -1,0 +1,57 @@
+<div class="btn-toolbar justify-content-between mb-3" role="toolbar" aria-label="Toolbar with button groups">
+  <div class="btn-group" role="group" aria-label="First group">
+    <button type="button" class="btn btn-secondary" (click)="back()"><i class="fas fa-home"></i> Home</button>
+  </div>
+  <div class="btn-group">
+    <button type="button" class="btn btn-primary" (click)="history()">Fights <i class="far fa-clock"></i></button>
+    <button type="button" class="btn btn-primary" (click)="goDororo()">Dororo Artefacts</button>
+  </div>
+</div>
+
+<div class="text-center mb-4">
+  <h2>Historical</h2>
+</div>
+
+<div class="row">
+  <div class="col">
+    <h4>Demons Defeated</h4>
+    <hr>
+    <ol class="list-group list-group-numbered overflow-auto" *ngIf="demonsDefeated.length > 0">
+      <li
+        class="list-group-item d-flex justify-content-between align-items-start" 
+        *ngFor="let demon of demonsDefeated">
+        <div class="ms-2 me-auto">
+          <div class="fw-bold">{{ demon.name }}</div>
+          <i>Defeat At: </i>{{demon.defeatedOn}}
+        </div>
+      </li>
+    </ol>
+
+    <ol class="list-group" *ngIf="demonsDefeated.length == 0">
+      <li
+        class="list-group-item d-flex justify-content-between align-items-start">
+        <div class="ms-2 me-auto ">
+          <div>No demons defeat yet <i class="far fa-eye-slash"></i></div>
+        </div>
+      </li>
+    </ol>
+  </div>
+
+  <div class="col">
+    <h4>Recovered Body Parts {{ demonsDefeated.length }}/{{ bodyParts }}</h4>
+    <hr>
+    <ol class="list-group list-group-numbered overflow-auto" *ngIf="demonsDefeated.length > 0">
+      <li class="list-group-item" *ngFor="let demon of demonsDefeated">{{ demon.bodyPart.name }}</li>
+    </ol>
+
+    <ol class="list-group" *ngIf="demonsDefeated.length == 0">
+      <li
+        class="list-group-item d-flex justify-content-between align-items-start">
+        <div class="ms-2 me-auto ">
+          <div>Not body parts recovered yet <i class="far fa-eye-slash"></i></div>
+        </div>
+      </li>
+    </ol>
+  </div>
+</div>
+

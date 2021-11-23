@@ -1,0 +1,39 @@
+<div class="mb-2">
+    <button class="btn btn-secondary" (click)="back()">
+        <i class="fas fa-arrow-left"></i>
+        Back
+    </button>
+</div>
+<div class="text-center">
+    <h2>History Fights</h2>
+</div>
+<hr>
+<ul class="list-group" *ngIf="fights.length > 0">
+    <li class="list-group-item" *ngFor="let fight of fights">
+        <div class="row g-0">
+            <div class="col-md-4">
+                <img [src]="fight.demon.image"
+                    class="img-fluid rounded-start lost" [ngClass]="{'lost': !fight.defeated, 'won': fight.defeated}" alt="...">
+                <div class="card-img-overlay">
+                    <div class="tag tag-loser" *ngIf="!fight.defeated">Lost!</div>
+                    <div class="tag tag-winner" *ngIf="fight.defeated">Won!</div>
+                </div>
+            </div>
+            <div class="col-md-8">
+                <div class="card-body">
+                    <h5 class="card-title">{{ fight.demon.name }}</h5>
+                    <p class="card-text">{{ fight.demon.bodyPart.name }}</p>
+                    <p class="card-text"><small class="text-muted">{{ fight.foughtOn}}</small></p>
+                </div>
+            </div>
+        </div>
+    </li>
+</ul>
+<ol class="list-group" *ngIf="fights.length == 0">
+    <li
+      class="list-group-item d-flex justify-content-between align-items-start">
+      <div class="ms-2 me-auto ">
+        <div>Not Fights Yet <i class="far fa-eye-slash"></i></div>
+      </div>
+    </li>
+  </ol>

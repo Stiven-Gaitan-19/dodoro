@@ -1,0 +1,21 @@
+<div class="mb-2">
+  <button class="btn btn-secondary" (click)="back()">
+    <i class="fas fa-home"></i>
+      Home
+  </button>
+</div>
+
+<div class="text-center">
+  <h2>Aventuras</h2>
+</div>
+
+<div class="row row-cols-1 row-cols-md-3 g-4 mt-2 mb-3">
+  <div class="col" *ngFor="let place of places" (click)="navigate(place.id)">
+    <div class="card bg-dark text-white">
+      <img [src]="place.image" class="card-img" alt="..." />
+      <div class="card-img-overlay">
+        <h5 class="card-title">{{ place.name }}</h5>
+      </div>
+    </div>
+  </div>
+</div>

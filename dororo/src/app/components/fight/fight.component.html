@@ -1,0 +1,37 @@
+<div class="mb-2">
+  <button class="btn btn-secondary" (click)="back()">
+      <i class="fas fa-arrow-left"></i>
+      Back
+  </button>
+</div>
+
+<div class="text-center">
+    <h2>Hyakkimaru vs {{ demon.name }}</h2>
+</div>
+
+<div class="card mb-3">
+  <img *ngIf="!game.fight" [src]="demon.image" class="card-img-top" alt="..." />
+  <img *ngIf="game.fight" [ngClass]="{'starting': (game.fight && !game.started) || game.finished}" src="https://i.pinimg.com/originals/37/12/a2/3712a2d62a7dc8412b74e09cc3f3c8dc.gif" class="card-img-top" alt="..." />
+
+  <div class="card-body" *ngIf="!game.fight">
+    <h5 class="card-title">{{ demon.name }}</h5>
+    <p class="card-text">Body part: {{ demon.bodyPart.name }}</p>
+    <div class="text-center">
+      <button class="btn btn-primary" (click)="startFight()">Start Fight</button>
+    </div>
+  </div>
+
+  <div class="card-img-overlay" *ngIf="game.fight">
+    <div class="progress" *ngIf="game.started && !game.finished">
+        <div class="progress-bar bg-danger" role="progressbar" [ngStyle]="stylePorcent" style="width: 85%" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+    </div>
+    <div class="text-center position-absolute top-50 start-50 translate-middle" *ngIf="!game.started || game.finished">
+        <p style="font-size: 10vw; color: white; font-weight: bold;">{{ stateGame }}</p>
+    </div>
+    
+  </div>
+</div>
+
+<div class="text-center" *ngIf="game.fight" >
+    <button class="btn btn-outline-primary"  type="button" (click)="userKick()">Strike</button>
+</div>

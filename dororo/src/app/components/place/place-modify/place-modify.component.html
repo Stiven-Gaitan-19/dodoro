@@ -1,0 +1,20 @@
+<div class="text-center">
+    <h2 *ngIf="!isUpdate">Create Place</h2>
+    <h2 *ngIf="isUpdate">Update Place</h2>
+</div>
+<form>
+    <div class="mb-3">
+      <label for="exampleInputEmail1" class="form-label">Name:</label>
+      <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" [(ngModel)]="place.name" name="name">
+    </div>
+    <div class="mb-3">
+        <label for="formFile" class="form-label">Image:</label>
+        <input class="form-control" type="file" id="formFile" (change)="onFileAdded($event)" >
+    </div>
+    <div class="d-grid gap-2 d-md-flex justify-content-md-center">
+        <button *ngIf="!isUpdate" type="submit" class="btn btn-success" (click)="create()">Create</button>
+        <button *ngIf="isUpdate" type="submit" class="btn btn-primary" (click)="update()">Update</button>
+        <button type="submit" class="btn btn-danger" (click)="back()">Cancel</button>
+    </div>
+    
+</form>
